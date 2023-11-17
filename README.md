@@ -1,12 +1,6 @@
 # react native web-rtc firebase
 
-Minimal react native web-etc example with Firebase
-
-## Read
-
-This blog might help to understand the code : [dipanshkhandelwal-medium-react-native-webrtc-firebase](https://dipanshkhandelwal.medium.com/video-calling-using-firebase-and-webrtc-14cc2d4afceb)
-
-## Demo
+Minimal react native web-rtc example with Firebase
 
 ![Demo GIf](./demo/demo.gif)
 
