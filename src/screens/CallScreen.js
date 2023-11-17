@@ -117,6 +117,7 @@ export default function CallScreen({ setScreen, screens, roomId }) {
     if (!remoteStream) {
       return;
     }
+    
     localStream.getAudioTracks().forEach(track => {
       // console.log(track.enabled ? 'muting' : 'unmuting', ' local track', track);
       track.enabled = !track.enabled;
