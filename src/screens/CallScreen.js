@@ -124,7 +124,6 @@ export default function CallScreen({ setScreen, screens, roomId }) {
     });
   };
 
-
   return (
     <>
       <Text style={styles.heading} >Call Screen</Text>
