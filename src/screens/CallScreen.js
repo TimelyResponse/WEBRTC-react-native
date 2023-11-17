@@ -117,7 +117,7 @@ export default function CallScreen({ setScreen, screens, roomId }) {
     if (!remoteStream) {
       return;
     }
-    
+
     localStream.getAudioTracks().forEach(track => {
       // console.log(track.enabled ? 'muting' : 'unmuting', ' local track', track);
       track.enabled = !track.enabled;
@@ -163,13 +163,13 @@ export default function CallScreen({ setScreen, screens, roomId }) {
 const styles = StyleSheet.create({
   heading: {
     alignSelf: 'center',
-    fontSize: 30,
+    fontSize: 40,
   },
   rtcview: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'black',
+    backgroundColor: 'red',
     margin: 5,
   },
   rtc: {
