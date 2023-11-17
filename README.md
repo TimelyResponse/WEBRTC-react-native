@@ -2,11 +2,10 @@
 
 Minimal react native web-rtc example with Firebase
 
-![Demo GIf](./demo/demo.gif)
 
 ## Steps to setup the project
 
-1. Clone the reposiotry `git clone https://github.com/DipanshKhandelwal/react-native-webrtc-firebase.git`
+1. Clone the reposiotry `git clone https://github.com/TimelyResponse/WEBRTC-react-native.git`
 
 2. Create a new firebase project `https://console.firebase.google.com/`
 
